@@ -1,0 +1,43 @@
+name: Design Template
+description: 사용자 UI 디자인 변경
+title: "[Design] Title"
+labels: ["design"]
+
+body:
+  - type: textarea
+    id: design-contents
+    attributes:
+      label: 설명
+      description: 변경할 디자인 UI에 대해 설명해주세요.
+      placeholder: ex. `MainView`의 버튼 디자인을 플랫 형태에서 라운드 형태로 변경
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      description: Backlog에서의 중요도
+      options:
+        - ★★★★★
+        - ★★★★
+        - ★★★
+        - ★★
+        - ★
+    validations:
+      required: true
+      
+  - type: input
+    id: expected-period
+    attributes:
+      label: 예상 작업 기간
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: true
+  - type: input
+    id: real-period
+    attributes:
+      label: 실제 작업 기간(Close 시점에 수정)
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: false

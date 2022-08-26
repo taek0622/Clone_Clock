@@ -1,0 +1,14 @@
+name: Resource Template
+description: 리소스 추가 및 변경
+title: "[Resource] Title"
+labels: ["resource"]
+
+body:
+  - type: textarea
+    id: resource-contents
+    attributes:
+      label: 설명
+      description: 추가 및 변경할 리소스에 대해 설명해주세요.
+      placeholder: ex. `MainView`에 들어갈 칠판 이미지 추가
+    validations:
+      required: true

@@ -1,0 +1,43 @@
+name: Feature Template
+description: 새로운 기능 추가
+title: "[Feature] Title"
+labels: ["feature"]
+
+body:
+  - type: textarea
+    id: feature-contents
+    attributes:
+      label: 설명
+      description: 작업할 Feature에 대한 설명을 적어주세요.
+      placeholder: ex. json 파일 적용
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      description: Backlog에서의 중요도
+      options:
+        - ★★★★★
+        - ★★★★
+        - ★★★
+        - ★★
+        - ★
+    validations:
+      required: true
+      
+  - type: input
+    id: expected-period
+    attributes:
+      label: 예상 작업 기간
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: true
+  - type: input
+    id: real-period
+    attributes:
+      label: 실제 작업 기간(Close 시점에 수정)
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: false

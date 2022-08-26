@@ -1,0 +1,28 @@
+name: Bug Template
+description: 버그 제보
+title: "[Bug] Title"
+labels: ["bug"]
+
+body:
+  - type: textarea
+    id: bug-report
+    attributes:
+      label: 설명
+      description: 발견한 Bug에 대한 설명을 적어주세요.
+      placeholder: ex. Button Click시 Tab Bar가 사라짐
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      description: Backlog에서의 중요도
+      options:
+        - ★★★★★
+        - ★★★★
+        - ★★★
+        - ★★
+        - ★
+    validations:
+      required: true

@@ -1,0 +1,29 @@
+name: Refactor Template
+description: 코드 리팩토링
+title: "[Refactor] Title"
+labels: ["refactoring"]
+
+body:
+  - type: textarea
+    id: refactor-contents
+    attributes:
+      label: 설명
+      description: 리팩토링할 코드에 대해 설명해주세요.
+      placeholder: ex. API에서 정보를 가져오는 `requestData`를 전쟁 정보를 가져오는 `requestWarData`와 인물 정보를 가져오는 `requestPersonData`로 분리
+    validations:
+      required: true
+
+  - type: input
+    id: expected-period
+    attributes:
+      label: 예상 작업 기간
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: true
+  - type: input
+    id: real-period
+    attributes:
+      label: 실제 작업 기간(Close 시점에 수정)
+      placeholder: ~ MM/DD(E) ex. ~ 08/14(일)
+    validations:
+      required: false
