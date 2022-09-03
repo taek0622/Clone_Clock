@@ -20,6 +20,14 @@
 		2649936928C312F3003D3406 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649936828C312F3003D3406 /* TimerViewController.swift */; };
 		2649936E28C3AF56003D3406 /* temp1 in Resources */ = {isa = PBXBuildFile; fileRef = 2649936D28C3AF56003D3406 /* temp1 */; };
 		2649937028C3AF66003D3406 /* temp2 in Resources */ = {isa = PBXBuildFile; fileRef = 2649936F28C3AF66003D3406 /* temp2 */; };
+		2649937228C3B0D7003D3406 /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937128C3B0D7003D3406 /* CitySelectionViewController.swift */; };
+		2649937428C3B0EB003D3406 /* AlarmAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937328C3B0EB003D3406 /* AlarmAdditionViewController.swift */; };
+		2649937628C3B0FE003D3406 /* AlarmRepeatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937528C3B0FE003D3406 /* AlarmRepeatingViewController.swift */; };
+		2649937828C3B116003D3406 /* AlarmLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937728C3B116003D3406 /* AlarmLabelViewController.swift */; };
+		2649937A28C3B135003D3406 /* AlarmSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937928C3B135003D3406 /* AlarmSoundViewController.swift */; };
+		2649937C28C3B141003D3406 /* AlarmVibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937B28C3B141003D3406 /* AlarmVibrationViewController.swift */; };
+		2649937E28C3B14D003D3406 /* AlarmMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937D28C3B14D003D3406 /* AlarmMusicViewController.swift */; };
+		2649938028C3B167003D3406 /* TimerEndSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649937F28C3B167003D3406 /* TimerEndSoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,14 @@
 		2649936828C312F3003D3406 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		2649936D28C3AF56003D3406 /* temp1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp1; sourceTree = "<group>"; };
 		2649936F28C3AF66003D3406 /* temp2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp2; sourceTree = "<group>"; };
+		2649937128C3B0D7003D3406 /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		2649937328C3B0EB003D3406 /* AlarmAdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAdditionViewController.swift; sourceTree = "<group>"; };
+		2649937528C3B0FE003D3406 /* AlarmRepeatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepeatingViewController.swift; sourceTree = "<group>"; };
+		2649937728C3B116003D3406 /* AlarmLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmLabelViewController.swift; sourceTree = "<group>"; };
+		2649937928C3B135003D3406 /* AlarmSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundViewController.swift; sourceTree = "<group>"; };
+		2649937B28C3B141003D3406 /* AlarmVibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVibrationViewController.swift; sourceTree = "<group>"; };
+		2649937D28C3B14D003D3406 /* AlarmMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmMusicViewController.swift; sourceTree = "<group>"; };
+		2649937F28C3B167003D3406 /* TimerEndSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEndSoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +124,14 @@
 				2649936428C312D8003D3406 /* AlarmViewController.swift */,
 				2649936628C312E9003D3406 /* StopWatchViewController.swift */,
 				2649936828C312F3003D3406 /* TimerViewController.swift */,
+				2649937128C3B0D7003D3406 /* CitySelectionViewController.swift */,
+				2649937328C3B0EB003D3406 /* AlarmAdditionViewController.swift */,
+				2649937528C3B0FE003D3406 /* AlarmRepeatingViewController.swift */,
+				2649937728C3B116003D3406 /* AlarmLabelViewController.swift */,
+				2649937928C3B135003D3406 /* AlarmSoundViewController.swift */,
+				2649937B28C3B141003D3406 /* AlarmVibrationViewController.swift */,
+				2649937D28C3B14D003D3406 /* AlarmMusicViewController.swift */,
+				2649937F28C3B167003D3406 /* TimerEndSoundViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,14 +209,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2649937A28C3B135003D3406 /* AlarmSoundViewController.swift in Sources */,
 				2649935628C30E19003D3406 /* iOSClock.xcdatamodeld in Sources */,
+				2649937828C3B116003D3406 /* AlarmLabelViewController.swift in Sources */,
+				2649937E28C3B14D003D3406 /* AlarmMusicViewController.swift in Sources */,
+				2649938028C3B167003D3406 /* TimerEndSoundViewController.swift in Sources */,
+				2649937C28C3B141003D3406 /* AlarmVibrationViewController.swift in Sources */,
 				2649935028C30E19003D3406 /* WorldTimeViewController.swift in Sources */,
 				2649936528C312D8003D3406 /* AlarmViewController.swift in Sources */,
 				2649934C28C30E19003D3406 /* AppDelegate.swift in Sources */,
+				2649937228C3B0D7003D3406 /* CitySelectionViewController.swift in Sources */,
 				2649936928C312F3003D3406 /* TimerViewController.swift in Sources */,
+				2649937428C3B0EB003D3406 /* AlarmAdditionViewController.swift in Sources */,
 				2649936328C30F69003D3406 /* TabBarController.swift in Sources */,
 				2649936728C312E9003D3406 /* StopWatchViewController.swift in Sources */,
 				2649934E28C30E19003D3406 /* SceneDelegate.swift in Sources */,
+				2649937628C3B0FE003D3406 /* AlarmRepeatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
