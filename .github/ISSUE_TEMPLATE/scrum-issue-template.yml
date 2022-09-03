@@ -1,0 +1,14 @@
+name: Scrum Template
+description: 데일리 스크럼
+title: "[Daily Scrum] Title"
+labels: ["scrum"]
+
+body:
+  - type: textarea
+    id: scrum-description
+    attributes:
+      label: 작업 상황 공유
+      description: 어제까지 작업 상황에 대한 설명을 적어주세요.
+      placeholder: ex. json 파일 교체
+    validations:
+      required: true
