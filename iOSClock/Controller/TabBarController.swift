@@ -25,5 +25,7 @@ class TabBarController: UITabBarController {
         timerTab.tabBarItem = UITabBarItem(title: "타이머", image: UIImage(systemName: "timer"), selectedImage: UIImage(systemName: "timer")?.withTintColor(UIColor.orange))
         
         self.viewControllers = [worldTimeTab, alarmTab, stopWatchTab, timerTab]
+        
+        self.tabBar.tintColor = .systemOrange
     }
 }
