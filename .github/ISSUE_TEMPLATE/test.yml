@@ -5,7 +5,7 @@ labels: ["feature"]
 
 body:
   - type: markdown
-    attribute:
+    attributes:
       value: |
         <details>
         <summary><h2>작업 상황 공유</h2></summary>
