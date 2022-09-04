@@ -7,6 +7,17 @@
 
 import Foundation
 
+enum Week {
+    case mon
+    case tue
+    case wed
+    case thu
+    case fri
+    case sat
+    case sun
+    
+}
+
 struct AlarmData {
     let time: Date
     let repeating: [String]
