@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         
         let worldTimeTab = WorldTimeViewController()
-        worldTimeTab.tabBarItem = UITabBarItem(title: "세계 시계", image: UIImage(systemName: "network"), selectedImage: UIImage(systemName: "network")?.withTintColor(UIColor.orange))
+        worldTimeTab.tabBarItem = UITabBarItem(title: "세계 시계", image: UIImage(systemName: "globe"), selectedImage: UIImage(systemName: "globe")?.withTintColor(UIColor.orange))
         
         let alarmTab = AlarmViewController()
         alarmTab.tabBarItem = UITabBarItem(title: "알람", image: UIImage(systemName: "alarm.fill"), selectedImage: UIImage(systemName: "alarm.fill")?.withTintColor(UIColor.orange))
