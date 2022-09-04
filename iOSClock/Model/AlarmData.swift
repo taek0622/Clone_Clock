@@ -16,6 +16,28 @@ enum Week {
     case sat
     case sun
     
+    private func weekOfDayName() -> String {
+        var day = ""
+        switch self {
+        case .mon:
+            day += "월"
+        case .tue:
+            day += "화"
+        case .wed:
+            day += "수"
+        case .thu:
+            day += "목"
+        case .fri:
+            day += "금"
+        case .sat:
+            day += "토"
+        case .sun:
+            day += "일"
+        }
+        day += "요일"
+        
+        return day
+    }
 }
 
 struct AlarmData {
