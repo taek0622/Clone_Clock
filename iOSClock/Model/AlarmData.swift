@@ -42,7 +42,7 @@ enum Week {
 
 struct AlarmData {
     let time: Date
-    let repeating: [String]
+    let repeating: [Week]
     let vibrate: String
     let bell: String
     let isRedo: Bool
